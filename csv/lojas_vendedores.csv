@@ -1,0 +1,11 @@
+id_loja,nome_loja,endereco,id_vendedor,nome_vendedor
+101,Premium Imports SP,"Av. Paulista, 1000",1,Kevin Soffa
+101,Premium Imports SP,"Av. Paulista, 1000",2,Lucas Silva
+102,Japan Cars Sul,"Rua Curitiba, 50",3,Mateus Souza
+102,Japan Cars Sul,"Rua Curitiba, 50",4,Fernanda Pontes
+103,Elite Drift RJ,"Av. Atlântica, 200",5,Ricardo Oliveira
+103,Elite Drift RJ,"Av. Atlântica, 200",6,Beatriz Santos
+104,Euro Sports BH,"Rua da Bahia, 300",7,Andre Costa
+104,Euro Sports BH,"Rua da Bahia, 300",8,Julia Lima
+105,Nordeste Motors,"Av. Boa Viagem, 500",9,Paulo Sergio
+105,Nordeste Motors,"Av. Boa Viagem, 500",10,Carla Dias
