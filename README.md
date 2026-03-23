@@ -8,7 +8,7 @@ Este projeto consiste em um pipeline de dados ponta a ponta (ETL) que extrai dad
 
 ## 🏛️ Arquitetura do Projeto
 
-![Diagrama da Arquitetura](img/seu_diagrama_aqui.png)
+![Diagrama da Arquitetura](https://raw.githubusercontent.com/KevinSoffa/ETL-Python-AWS-BI/refs/heads/master/img/ETL_AWS.drawio.png)
 
 O fluxo de dados segue as seguintes etapas:
 
@@ -67,4 +67,9 @@ Recomenda-se o uso de um **ambiente virtual (`.venv`)**.
 ```bash
 pip install -r requirements.txt
 ```
+---
 
+## 📊 DASH BI
+
+![POWER BI](https://raw.githubusercontent.com/KevinSoffa/ETL-Python-AWS-BI/refs/heads/master/img/ETL_BI.png)
+![POWER BI](https://raw.githubusercontent.com/KevinSoffa/ETL-Python-AWS-BI/refs/heads/master/img/ETL_BI_2.png)
