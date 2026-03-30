@@ -1,3 +1,4 @@
+from decouple import config
 import boto3
 import time
 
@@ -9,7 +10,8 @@ def run_athena_query(query: str):
     client = boto3.client('athena')
     
     DATABASE = "db_carros_etl" 
-    S3_OUTPUT = "s3://lojas-vendedores-carro-etl-projeto/athena-results/"
+    #S3_OUTPUT = "s3://lojas-vendedores-carro-etl-projeto/athena-results/"
+    S3_OUTPUT = config('S3_OURO')
 
     # 1. Inicia a consulta
     response = client.start_query_execution(
@@ -36,14 +38,14 @@ def run_athena_query(query: str):
         if not rows:
             return "A query rodou com sucesso, mas retornou zero linhas."
 
-        # Criamos uma lista de listas (formato de tabela)
+        # Criando uma lista de listas (formato de tabela)
         tabela_dados = []
         for row in rows:
             # Extrai o valor de cada célula. Se estiver vazio, vira '0'
             linha = [col.get('VarCharValue', '0') for col in row['Data']]
             tabela_dados.append(linha)
             
-        # Retornamos a lista pura. O Agente vai saber usar isso para o gráfico.
+        # Retornando uma lista pura. O Agente vai saber usar isso para o gráfico.
         return tabela_dados
         
     else:

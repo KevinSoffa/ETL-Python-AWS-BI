@@ -18,7 +18,7 @@ if query:
 
 # Rodapé para o portfólio
 st.sidebar.markdown("### Stack Tecnológica")
-st.sidebar.write("🧠 gemini-2.5-flash")
-st.sidebar.write("🤖 Agno (Agentic Framework)")
-st.sidebar.write("☁️ Amazon S3 & Athena")
-st.sidebar.write("🐍 Python & Boto3")
+st.sidebar.write("-🧠 gemini-2.5-flash")
+st.sidebar.write("-🤖 Agno (Agentic Framework)")
+st.sidebar.write("-☁️ Amazon S3 & Athena")
+st.sidebar.write("-🐍 Python & Boto3")
