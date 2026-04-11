@@ -34,7 +34,7 @@ def gerar_grafico_vendas(dados_lista: List[List[str]], titulo: str):
         import pandas as pd
         import streamlit as st
         
-        # Transforma a lista do Athena [ AWS ] em um DataFrame real
+        # Transforma a lista do Athena [ AWS ] em um DataFrame
         df = pd.DataFrame(dados_lista[1:], columns=dados_lista[0])
         
         # Converte colunas para número
