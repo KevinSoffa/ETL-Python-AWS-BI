@@ -21,7 +21,7 @@ if submit_button and query:
 
 # Rodapé para o portfólio
 st.sidebar.markdown("### Stack Tecnológica")
-st.sidebar.write("- 🧠 gemini-2.0-flash") # Atualizei o nome do modelo aqui para bater com o que conversamos!
-st.sidebar.write("- 🤖 Agno (Agentic Framework)")
+st.sidebar.write("- 🧠 gemini-2.0-flash")
+st.sidebar.write("- 🚀 Agno (Agentic Framework)")
 st.sidebar.write("- ☁️ Amazon S3 & Athena")
 st.sidebar.write("- 🐍 Python & Boto3")
